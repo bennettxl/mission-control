@@ -1,5 +1,6 @@
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const OPENROUTER_REFERRER = process.env.OPENROUTER_REFERRER ?? process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const DEFAULT_REFERRER = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
+const OPENROUTER_REFERRER = process.env.OPENROUTER_REFERRER ?? process.env.NEXT_PUBLIC_SITE_URL ?? DEFAULT_REFERRER;
 const OPENROUTER_APP_TITLE = process.env.OPENROUTER_APP_TITLE ?? "XLInteractive Mission Control";
 
 type OpenRouterResult = {
@@ -42,15 +43,22 @@ export async function callOpenRouter(prompt: string, model = "gpt-4o-mini"): Pro
       }),
     });
 
+    const raw = await response.text();
     if (!response.ok) {
       return {
         ok: false,
         output: "",
-        error: `OpenRouter request failed (${response.status})`,
+        error: `OpenRouter request failed (${response.status}): ${raw}`.slice(0, 500),
       };
     }
 
-    const data = await response.json();
+    let data: any = {};
+    try {
+      data = JSON.parse(raw);
+    } catch (parseError) {
+      console.warn("Failed to parse OpenRouter response", parseError);
+    }
+
     const output = data?.choices?.[0]?.message?.content ?? "";
 
     return { ok: true, output, model: data?.model };
