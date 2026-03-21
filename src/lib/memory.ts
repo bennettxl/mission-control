@@ -1,6 +1,16 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
+async function pathExists(targetPath: string): Promise<boolean> {
+  try {
+    await fs.access(targetPath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+
 export type DailyMemoryEntry = {
   date: string;
   label: string;
@@ -11,6 +21,9 @@ export async function loadDailyMemories(limit = 10): Promise<DailyMemoryEntry[]>
   const memoryDir = path.resolve(process.cwd(), "..", "memory");
 
   try {
+    if (!(await pathExists(memoryDir))) {
+      return [];
+    }
     const files = await fs.readdir(memoryDir);
     const dayFiles = files
       .filter((file) => /^\d{4}-\d{2}-\d{2}\.md$/.test(file))
@@ -46,6 +59,9 @@ export async function loadDailyMemories(limit = 10): Promise<DailyMemoryEntry[]>
 export async function loadLongTermDirectives(): Promise<string[]> {
   const directivesPath = path.resolve(process.cwd(), "..", "MEMORY.md");
   try {
+    if (!(await pathExists(directivesPath))) {
+      return [];
+    }
     const raw = await fs.readFile(directivesPath, "utf-8");
     return raw
       .split(/\r?\n/)
