@@ -1,0 +1,87 @@
+// XLInteractive Mission Control data model
+// sqlite-backed Prisma schema. Generated client lives under src/generated/prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model SourceConnection {
+  id        String   @id @default(cuid())
+  name      String
+  type      String
+  status    String   @default("disconnected")
+  details   String?
+  lastSync  DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  tasks     Task[]
+  documents DocumentRecord[]
+  events    CalendarEvent[]
+}
+
+model Task {
+  id                 String   @id @default(cuid())
+  title              String
+  description        String?
+  status             String   @default("BACKLOG")
+  priority           String?
+  dueDate            DateTime?
+  owner              String?
+  source             String   @default("MANUAL")
+  sourceId           String?
+  labels             String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  sourceConnectionId String?
+  sourceConnection   SourceConnection? @relation(fields: [sourceConnectionId], references: [id])
+  insights           Insight[]
+}
+
+model CalendarEvent {
+  id                 String   @id @default(cuid())
+  title              String
+  description        String?
+  status             String   @default("UPCOMING")
+  start              DateTime
+  end                DateTime?
+  source             String   @default("MANUAL")
+  sourceId           String?
+  location           String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  sourceConnectionId String?
+  sourceConnection   SourceConnection? @relation(fields: [sourceConnectionId], references: [id])
+}
+
+model DocumentRecord {
+  id                 String   @id @default(cuid())
+  title              String
+  description        String?
+  content            String?
+  kind               String   @default("OTHER")
+  source             String   @default("MANUAL")
+  sourceId           String?
+  link               String?
+  filePath           String?
+  summary            String?
+  metadata           String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  sourceConnectionId String?
+  sourceConnection   SourceConnection? @relation(fields: [sourceConnectionId], references: [id])
+}
+
+model Insight {
+  id        String   @id @default(cuid())
+  kind      String   @default("SUMMARY")
+  content   String
+  model     String?
+  createdAt DateTime @default(now())
+  taskId    String?
+  task      Task?    @relation(fields: [taskId], references: [id])
+}

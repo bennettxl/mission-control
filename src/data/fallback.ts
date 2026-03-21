@@ -1,0 +1,225 @@
+import type { CalendarEvent, DocumentRecord, Task } from "@prisma/client";
+
+const MINUTE = 60 * 1000;
+const HOUR = 60 * MINUTE;
+const DAY = 24 * HOUR;
+
+const now = Date.now();
+const ts = (offset: number) => new Date(now + offset);
+const id = (slug: string) => `fallback-${slug}`;
+
+export type MissionDataSnapshot = {
+  tasks: Task[];
+  events: CalendarEvent[];
+  documents: DocumentRecord[];
+};
+
+export function buildFallbackData(): MissionDataSnapshot {
+  const tasks: Task[] = [
+    {
+      id: id("task-storyboard"),
+      title: "Storyboard voice AI launch video",
+      description: "Outline beats, talent, and CTA for the XLInteractive teaser.",
+      status: "IN_PROGRESS",
+      priority: "HIGH",
+      dueDate: ts(2 * DAY),
+      owner: "Ayan",
+      source: "NOTION",
+      sourceId: null,
+      labels: JSON.stringify(["stream:content", "project:xlinteractive", "channel:video"]),
+      createdAt: ts(-3 * DAY),
+      updatedAt: ts(-2 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("task-sms"),
+      title: "Sync SMS automation metrics",
+      description: "Pull the latest responder metrics and prep the KPI snapshot.",
+      status: "BACKLOG",
+      priority: "MEDIUM",
+      dueDate: null,
+      owner: "Automation Pod",
+      source: "OPENCLAW",
+      sourceId: null,
+      labels: JSON.stringify(["stream:ops", "cadence:weekly"]),
+      createdAt: ts(-5 * DAY),
+      updatedAt: ts(-15 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("task-deck"),
+      title: "Prep enterprise deck variant",
+      description: "Weave in media automation results + testimonial quotes.",
+      status: "REVIEW",
+      priority: "URGENT",
+      dueDate: ts(12 * HOUR),
+      owner: "XL Studio",
+      source: "GOOGLE_DRIVE",
+      sourceId: null,
+      labels: JSON.stringify(["stream:sales", "project:xlinteractive"]),
+      createdAt: ts(-2 * DAY),
+      updatedAt: ts(-4 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("task-onboarding"),
+      title: "Draft XLInteractive onboarding flow",
+      description: "Translate the welcome narrative into SMS + voice actions.",
+      status: "IN_PROGRESS",
+      priority: "HIGH",
+      dueDate: null,
+      owner: "Open Claw",
+      source: "OPENCLAW",
+      sourceId: null,
+      labels: JSON.stringify(["project:xlinteractive", "channel:sms", "owner:o"]),
+      createdAt: ts(-DAY),
+      updatedAt: ts(-3 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("task-cron"),
+      title: "Audit cron rituals",
+      description: "Confirm every proactive check (weather, inbox, Discord) is queued.",
+      status: "BACKLOG",
+      priority: "LOW",
+      dueDate: null,
+      owner: "Signal Monitor",
+      source: "OPENCLAW",
+      sourceId: null,
+      labels: JSON.stringify(["cadence:daily", "owner:s"]),
+      createdAt: ts(-7 * DAY),
+      updatedAt: ts(-3 * DAY),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("task-digest"),
+      title: "Publish concierge insight digest",
+      description: "Summarize sentiment highlights for XLInteractive partners.",
+      status: "COMPLETE",
+      priority: "MEDIUM",
+      dueDate: null,
+      owner: "Adept Forge",
+      source: "OPENCLAW",
+      sourceId: null,
+      labels: JSON.stringify(["project:xlinteractive", "channel:email"]),
+      createdAt: ts(-4 * DAY),
+      updatedAt: ts(-DAY),
+      sourceConnectionId: null,
+    },
+  ];
+
+  const events: CalendarEvent[] = [
+    {
+      id: id("event-systems-check"),
+      title: "Morning systems check",
+      description: "Heartbeat loop verifying cron queue + reminders.",
+      status: "CRON",
+      start: ts(30 * MINUTE),
+      end: ts(90 * MINUTE),
+      source: "Signal Monitor",
+      sourceId: null,
+      location: null,
+      createdAt: ts(-2 * DAY),
+      updatedAt: ts(-2 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("event-autonomy"),
+      title: "XLInteractive autonomy sprint",
+      description: "Batch Open Claw + Forge tasks for onboarding build.",
+      status: "AUTONOMY",
+      start: ts(4 * HOUR),
+      end: ts(6 * HOUR),
+      source: "OPENCLAW",
+      sourceId: null,
+      location: null,
+      createdAt: ts(-3 * DAY),
+      updatedAt: ts(-4 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("event-onboarding"),
+      title: "Voice AI beta onboarding",
+      description: "Live session with cohort 3 brands.",
+      status: "UPCOMING",
+      start: ts(10 * HOUR),
+      end: ts(12 * HOUR),
+      source: "NOTION",
+      sourceId: null,
+      location: null,
+      createdAt: ts(-5 * DAY),
+      updatedAt: ts(-DAY),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("event-content-lab"),
+      title: "Content lab: February drops",
+      description: "Outline content automation experiments.",
+      status: "UPCOMING",
+      start: ts(26 * HOUR),
+      end: ts(28 * HOUR),
+      source: "GOOGLE_DRIVE",
+      sourceId: null,
+      location: null,
+      createdAt: ts(-6 * DAY),
+      updatedAt: ts(-2 * DAY),
+      sourceConnectionId: null,
+    },
+  ];
+
+  const documents: DocumentRecord[] = [
+    {
+      id: id("doc-touchpoints"),
+      title: "Conversational touchpoint map",
+      description: "Every SMS + Voice AI branch for onboarding.",
+      content:
+        "Section 1 outlines concierge greetings. Section 2 documents fallback SMS copy whenever calls overflow. Section 3 tags critical branches for personalization.",
+      kind: "SPEC",
+      source: "GOOGLE_DRIVE",
+      sourceId: null,
+      link: "https://drive.google.com/file/d/voice-map",
+      filePath: null,
+      summary: "Maps all customer intents with recommended channel + automation fallback logic.",
+      metadata: JSON.stringify({ project: "xlinteractive", stream: "automation" }),
+      createdAt: ts(-3 * DAY),
+      updatedAt: ts(-2 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("doc-blueprint"),
+      title: "XLInteractive wellness blueprint",
+      description: "North star narrative for the health + wellness business.",
+      content:
+        "Vision: measurable wellness outcomes through persistent concierge AI. Pillars: content engine, community rituals, proactive nudges.",
+      kind: "BRIEF",
+      source: "NOTION",
+      sourceId: null,
+      link: "https://www.notion.so/xlinteractive/xlinteractive-blueprint",
+      filePath: null,
+      summary: "Defines promise, target personas, and automation pillars for XLInteractive.",
+      metadata: JSON.stringify({ project: "xlinteractive", artifacts: ["brand", "product"] }),
+      createdAt: ts(-4 * DAY),
+      updatedAt: ts(-3 * HOUR),
+      sourceConnectionId: null,
+    },
+    {
+      id: id("doc-sentiment"),
+      title: "Sentiment pulse 02-25",
+      description: "Weekly qualitative readout from concierge automations.",
+      content:
+        "Customers highlighted faster answers, concierge tone, and proactive SMS nudges. Two brands requested more seasonal CTAs.",
+      kind: "REPORT",
+      source: "OPENCLAW",
+      sourceId: null,
+      link: null,
+      filePath: "./uploads/sentiment-pulse.pdf",
+      summary: "Voice + SMS feedback trending positive after concierge scripts deployed.",
+      metadata: JSON.stringify({ project: "cx-insights" }),
+      createdAt: ts(-2 * DAY),
+      updatedAt: ts(-DAY),
+      sourceConnectionId: null,
+    },
+  ];
+
+  return { tasks, events, documents };
+}
