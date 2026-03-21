@@ -1,4 +1,6 @@
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
+const OPENROUTER_REFERRER = process.env.OPENROUTER_REFERRER ?? process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const OPENROUTER_APP_TITLE = process.env.OPENROUTER_APP_TITLE ?? "XLInteractive Mission Control";
 
 type OpenRouterResult = {
   ok: boolean;
@@ -24,8 +26,8 @@ export async function callOpenRouter(prompt: string, model = "gpt-4o-mini"): Pro
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${apiKey}`,
-        "HTTP-Referer": "http://localhost:3000",
-        "X-Title": "XLInteractive Mission Control",
+        "HTTP-Referer": OPENROUTER_REFERRER,
+        "X-Title": OPENROUTER_APP_TITLE,
       },
       body: JSON.stringify({
         model,
