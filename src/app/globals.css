@@ -1,15 +1,45 @@
 @import "tailwindcss";
 
+/* âââ XLInteractive Brand Tokens âââ */
 :root {
-  --background: #05070d;
-  --foreground: #f5f7fb;
-  --panel: rgba(9, 11, 18, 0.9);
-  --panel-muted: rgba(15, 18, 28, 0.9);
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.18);
-  --accent: #8f9bff;
-  --accent-strong: #b388ff;
-  --muted: rgba(245, 247, 251, 0.6);
+  /* Surfaces â zinc scale for dark dashboard */
+  --bg-base: #09090b;
+  --bg-surface: #18181b;
+  --bg-raised: #27272a;
+
+  /* Borders */
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.15);
+
+  /* Text */
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  /* XL Brand â Red (from xlinteractive.com) */
+  --brand: #dc2626;
+  --brand-hover: #ef4444;
+  --brand-subtle: rgba(220, 38, 38, 0.1);
+  --brand-glow: rgba(220, 38, 38, 0.2);
+
+  /* Status â semantic (data layer) */
+  --success: #22c55e;
+  --warning: #eab308;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* Data accent â neutral for charts */
+  --data: #64748b;
+  --data-highlight: #94a3b8;
+
+  /* Legacy mappings */
+  --background: var(--bg-base);
+  --foreground: var(--text-primary);
+  --panel: var(--bg-surface);
+  --panel-muted: var(--bg-raised);
+  --accent: var(--brand);
+  --accent-strong: var(--brand-hover);
+  --muted: var(--text-secondary);
 }
 
 @theme inline {
@@ -21,34 +51,36 @@
 
 body {
   min-height: 100vh;
-  background-color: var(--background);
+  background-color: var(--bg-base);
   background-image:
-    radial-gradient(circle at 20% -10%, rgba(143, 155, 255, 0.25), transparent 38%),
-    radial-gradient(circle at 80% 0%, rgba(179, 136, 255, 0.18), transparent 40%),
+    radial-gradient(circle at 20% -10%, var(--brand-glow), transparent 38%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.04), transparent 40%),
     linear-gradient(180deg, #03050a 0%, #04050c 55%, #020309 100%);
-  color: var(--foreground);
+  color: var(--text-primary);
   font-family: var(--font-geist-sans), "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   letter-spacing: -0.01em;
 }
 
 ::selection {
-  background: rgba(143, 155, 255, 0.4);
+  background: var(--brand-glow);
   color: #fff;
 }
 
+/* âââ Panel Components âââ */
 .masked-panel {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 1.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: 0.75rem;
   box-shadow: 0 35px 120px -80px rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(22px);
 }
 
 .subtle-border {
-  border: 1px solid var(--border);
-  border-radius: 1.25rem;
+  border: 1px solid var(--border-default);
+  border-radius: 0.75rem;
 }
 
+/* âââ Tags & Badges âââ */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -62,43 +94,45 @@ body {
   background: rgba(255, 255, 255, 0.04);
 }
 
+/* âââ Navigation âââ */
 .nav-surface {
-  background: rgba(7, 10, 18, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 1.5rem;
+  background: rgba(9, 9, 11, 0.95);
+  border: 1px solid var(--border-default);
+  border-radius: 0.75rem;
   box-shadow: 0 20px 70px -60px rgba(0, 0, 0, 0.8);
 }
 
 .nav-link {
-  border-radius: 0.9rem;
-  color: var(--muted);
+  border-radius: 0.75rem;
+  color: var(--text-secondary);
   font-weight: 500;
-  transition: color 120ms ease, background 120ms ease;
+  transition: color 150ms ease, background 150ms ease;
 }
 
 .nav-link:hover {
-  color: var(--foreground);
-  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-primary);
+  background: var(--bg-raised);
 }
 
 .nav-link-active {
-  background: rgba(143, 155, 255, 0.12);
+  background: var(--brand-subtle);
   color: #fff;
-  border: 1px solid rgba(143, 155, 255, 0.4);
+  border-left: 2px solid var(--brand);
 }
 
+/* âââ Grid & Cards âââ */
 .grid-field {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 24px 24px;
-  border-radius: 1.5rem;
+  border-radius: 0.75rem;
   border: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 .pixel-room {
-  background: linear-gradient(180deg, rgba(20, 24, 38, 0.8) 0%, rgba(9, 11, 18, 0.95) 65%);
-  border-radius: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(24, 24, 27, 0.8) 0%, rgba(9, 9, 11, 0.95) 65%);
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-default);
   position: relative;
   overflow: hidden;
 }
@@ -109,8 +143,8 @@ body {
   inset: 0;
   background-image:
     linear-gradient(transparent, rgba(0, 0, 0, 0.2)),
-    radial-gradient(circle at 30% 20%, rgba(143, 155, 255, 0.15), transparent 55%),
-    radial-gradient(circle at 80% 10%, rgba(179, 136, 255, 0.12), transparent 40%);
+    radial-gradient(circle at 30% 20%, var(--brand-glow), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(255, 255, 255, 0.04), transparent 40%);
   pointer-events: none;
 }
 
@@ -119,9 +153,9 @@ body {
   z-index: 2;
   width: 68px;
   height: 68px;
-  border-radius: 0.8rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(5, 8, 15, 0.9);
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-base);
   box-shadow: 0 10px 25px -18px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
@@ -132,10 +166,47 @@ body {
 
 .pixel-agent span {
   font-size: 0.65rem;
-  color: var(--muted);
+  color: var(--text-secondary);
 }
 
 .pixel-agent strong {
   font-size: 1.1rem;
   color: #fff;
+}
+
+/* âââ Login Page âââ */
+.login-grid-bg {
+  background-image:
+    linear-gradient(rgba(220, 38, 38, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(220, 38, 38, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.login-glow {
+  background: radial-gradient(circle at 50% 40%, var(--brand-glow), transparent 60%);
+}
+
+/* âââ Animations âââ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
 }
