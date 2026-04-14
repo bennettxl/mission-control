@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import Image from "next/image";
 import { Lock } from "lucide-react";
 
 function LoginForm() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -27,8 +26,8 @@ function LoginForm() {
       const data = await res.json();
 
       if (data.ok) {
-        router.push(data.redirect ?? "/");
-        router.refresh();
+        // Full page reload ensures the cookie is sent with the next request
+        window.location.href = data.redirect ?? "/";
       } else {
         setError(data.error ?? "Invalid password");
       }
