@@ -92,5 +92,6 @@ Ensure the response is pure JSON without commentary.`;
   }
 
   revalidatePath('/');
+  revalidatePath('/tasks');
   return { ok: true, message: 'Task created from prompt.' };
 }

@@ -1,0 +1,2845 @@
+{
+  "exportedAt": "2026-03-25T16:15:34.645Z",
+  "count": 159,
+  "lessons": [
+    {
+      "id": "32ce15f9-9649-8100-b2e3-f8d4903f716d",
+      "lessonTitle": "01/16/25 GHL Workflow Basics",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn how to build workflows that automate your whole GHL system.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-16"
+    },
+    {
+      "id": "32ce15f9-9649-8101-b98b-cadbc66d3faf",
+      "lessonTitle": "2/20/25 - Offer Explanation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Broke down what an offer is and how to make yours clear, compelling, and cash-generating. Walked through personalized ChatGPTs to streamline business.",
+      "notes": null,
+      "keyTools": "ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-20"
+    },
+    {
+      "id": "32ce15f9-9649-8102-893c-eaf0ee6778e6",
+      "lessonTitle": "06-12-25 - ElevenLabs Voice Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using ElevenLabs for AI voice cloning and voice automation in business workflows",
+      "notes": null,
+      "keyTools": "ElevenLabs",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-12"
+    },
+    {
+      "id": "32ce15f9-9649-8102-bfa9-cec6821fd27f",
+      "lessonTitle": "12/19/2024 - Social Media Flux Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "SEO & Content",
+        "Social Media"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Social media automation using Flux AI for content creation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "32ce15f9-9649-8103-82b1-e014e5891041",
+      "lessonTitle": "1/23/25 - Create Custom Realistic Images of Yourself and ANYTHING",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn to create custom realistic AI images of yourself and anything using AI image generation tools.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "32ce15f9-9649-8104-84e2-fd93910cd58a",
+      "lessonTitle": "09-12-25 - TOFU-MOFU-BOFU / JSON-LD",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Top-of-funnel, middle-of-funnel, bottom-of-funnel content strategy with JSON-LD structured data implementation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-12"
+    },
+    {
+      "id": "32ce15f9-9649-8104-984a-fe0369b50087",
+      "lessonTitle": "04-03-25 - N8N OUTREACH AUTOMATION",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Lead Gen automation with N8N. Setup walkthrough for outreach automation.",
+      "notes": null,
+      "keyTools": "N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-03"
+    },
+    {
+      "id": "32ce15f9-9649-8105-b7b7-c77c1512f999",
+      "lessonTitle": "01/22/26 - Cluster Content Generator",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI Websites, AEO, GEO, E-E-A-T, Cluster Generator / Content Engine. Machine readability and structured content for AI websites.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-22"
+    },
+    {
+      "id": "32ce15f9-9649-8108-ad36-ddf39ff5a120",
+      "lessonTitle": "12-12-2024 - Fully Automated Workflow",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Download Snapshot Here. Learn how to build a fully automated workflow.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "32ce15f9-9649-8109-96bb-ed9a34d920fe",
+      "lessonTitle": "01-15-26 - Collaboration Explained",
+      "section": "Weekly Classes",
+      "categories": [
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Explanation of collaboration framework and team workflow.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-15"
+    },
+    {
+      "id": "32ce15f9-9649-8109-a63a-e22ce26d29fb",
+      "lessonTitle": "09/15/25 - TOFU/MOFU/BOFU and CLUSTERS setup PROMPT",
+      "section": "Office Hours",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setup prompts for Top-of-funnel, Middle-of-funnel, Bottom-of-funnel content clusters.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-15"
+    },
+    {
+      "id": "32ce15f9-9649-810a-87ea-f8261ccb2fac",
+      "lessonTitle": "07-17-25 - Lovable App Building",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building full applications using the Lovable AI platform",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-17"
+    },
+    {
+      "id": "32ce15f9-9649-810b-b610-c74cd7037a73",
+      "lessonTitle": "06/30/25 - Offers & Find 10 People to give FREE Service To",
+      "section": "Office Hours",
+      "categories": [
+        "Sales & Offers",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Action steps: DM or email 5-10 businesses, offer to build system for free in exchange for testimonial.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "32ce15f9-9649-810d-afee-ec9261513f11",
+      "lessonTitle": "06/06/25 - Pipeline & Automation build Docs",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Go High Level Automation Workflow Build: Merch Brand System. Automate the entire customer journey from first contact to strategy call and conversion.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-06"
+    },
+    {
+      "id": "32ce15f9-9649-810e-b034-f0eb89a6ddd8",
+      "lessonTitle": "01/26/26 - Antigravity Notebook LM & Skill Framework",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Antigravity Notebook LM and Skills framework training.",
+      "notes": null,
+      "keyTools": "Antigravity",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-26"
+    },
+    {
+      "id": "32ce15f9-9649-8110-b643-d1e6c78b0ba5",
+      "lessonTitle": "2-6-25 - Webflow Brief Overview",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Quick guide on how to edit, customize, and update your website inside Webflow.",
+      "notes": null,
+      "keyTools": "Webflow",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-8113-930f-da1bb763322e",
+      "lessonTitle": "12-4-2025 - Pinecone Assistant Rag - & Marcus",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "New Updated RAG with Pinecone Assistants integrated with Marcus AI.",
+      "notes": null,
+      "keyTools": "Pinecone, Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-04"
+    },
+    {
+      "id": "32ce15f9-9649-8117-82e9-dc37c5b2a005",
+      "lessonTitle": "06/23/25 - Memory AI Walkthrough - STEP BY STEP",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Built an AI Memory Agent using N8N, Lovable, and Airtable. Agent remembers user data, tracks conversations, searches internet.",
+      "notes": null,
+      "keyTools": "N8N, Lovable, Airtable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "32ce15f9-9649-8119-b934-ca996ad256c0",
+      "lessonTitle": "06-19-25 - HeyGen Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using HeyGen for AI video avatar creation and automated video content",
+      "notes": null,
+      "keyTools": "HeyGen",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-19"
+    },
+    {
+      "id": "32ce15f9-9649-8123-8152-d90937f8786d",
+      "lessonTitle": "01/13/25 GHL Basics",
+      "section": "Office Hours",
+      "categories": [
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn the basics of setting up a new sub-account with GHL.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-13"
+    },
+    {
+      "id": "32ce15f9-9649-8124-b769-fbf8658b4029",
+      "lessonTitle": "01/16/25 GHL Workflow Basics",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn how to build workflows that automate your whole GHL system.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-16"
+    },
+    {
+      "id": "32ce15f9-9649-8128-aae0-c965f3ccffe3",
+      "lessonTitle": "02/02/2026 - SaaS Researcher Firecrawl",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "SaaS Researcher Prompt using Firecrawl for web scraping and research.",
+      "notes": null,
+      "keyTools": "Firecrawl",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-02-02"
+    },
+    {
+      "id": "32ce15f9-9649-812b-925d-e34eb1a34ccc",
+      "lessonTitle": "04/21/25 - Adding Telegram to RAG",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Add Telegram to your RAG Automation to sell to clients.",
+      "notes": null,
+      "keyTools": "Telegram, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-21"
+    },
+    {
+      "id": "32ce15f9-9649-812c-9732-dd510473da13",
+      "lessonTitle": "05/01/25 - Cup Cut Video Training",
+      "section": "Weekly Classes",
+      "categories": [
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Split-screen self-dialogue (clone effect): plan, film and composite two takes into a seamless conversation. Matching eyelines, lighting, dynamic split-screens.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "32ce15f9-9649-812c-b145-cd739d430ddd",
+      "lessonTitle": "09/04/25 - How to Monetize Nano Banana and COLLECT LEADS",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Lead Generation",
+        "Sales & Offers",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Tools: Lovable Prompt Build, \nFal.ai\n, Lovable. Monetization and lead collection strategies.",
+      "notes": null,
+      "keyTools": "Lovable, Fal AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "32ce15f9-9649-8130-b8d8-dc2e2e7673da",
+      "lessonTitle": "04/17/25 - Hostinger, Dashboards and Backend Builds",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on Hostinger hosting, building dashboards, and backend development.",
+      "notes": null,
+      "keyTools": "Hostinger",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-17"
+    },
+    {
+      "id": "32ce15f9-9649-8132-9b5b-f79fde42c0f7",
+      "lessonTitle": "07/21/25 - Gunner Live Training",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Live training session with Gunner on AI tools and techniques.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-21"
+    },
+    {
+      "id": "32ce15f9-9649-8136-9f24-eba69e31cc59",
+      "lessonTitle": "05/19/25 - Elevenlabs Agent Connected to N8N",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Connecting ElevenLabs voice agent to N8N automation workflows.",
+      "notes": null,
+      "keyTools": "ElevenLabs, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-19"
+    },
+    {
+      "id": "32ce15f9-9649-8137-9550-fcc941555478",
+      "lessonTitle": "02/19/2026 - Power Offers and Ads Framework",
+      "section": "Weekly Classes",
+      "categories": [
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "EcoSystem Glossary and Ads EcoSystem framework for creating power offers and advertising.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-02-19"
+    },
+    {
+      "id": "32ce15f9-9649-8137-b0d8-cb64d2e89e83",
+      "lessonTitle": "2-6-25 FB Group Scrap and Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Extract Facebook group member lists, drop into Google Sheets, and auto-send personalized DMs on autopilot.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-813e-9cda-fec8527c0540",
+      "lessonTitle": "04/10/25 - N8N Automation and Chat",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "N8N walkthrough of basics and the new outreach automation. N8N fundamentals training.",
+      "notes": null,
+      "keyTools": "N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-10"
+    },
+    {
+      "id": "32ce15f9-9649-8140-9400-da2020741954",
+      "lessonTitle": "2-6-25 FB Group Scrap and Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Extract Facebook group member lists, drop into Google Sheets, and auto-send personalized DMs on autopilot.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-8141-ab4b-e2c120a53ac2",
+      "lessonTitle": "12/1/2025 - MARCUS Walkthrough of How To Prompt with Claude",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Marcus AI walkthrough on how to effectively prompt with Claude AI.",
+      "notes": null,
+      "keyTools": "Marcus AI, Claude",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "32ce15f9-9649-8144-a80e-dfc8158cd7c5",
+      "lessonTitle": "07/07/25 - Lovable Build Together",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Framework for Lovable builds with Pixabay API for automatic image integration.",
+      "notes": null,
+      "keyTools": "Lovable, Pixabay",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-07"
+    },
+    {
+      "id": "32ce15f9-9649-8145-9f2e-fe1e8b12c9ad",
+      "lessonTitle": "03-13-25 - Webhooks In GHL & Data Button",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Web Dev & Design",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Webhooks, Data Mapping & Database Setup Masterclass. How to set up and configure webhooks to capture and process incoming data in Go High Level.",
+      "notes": null,
+      "keyTools": "Go High Level, Data Button",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-13"
+    },
+    {
+      "id": "32ce15f9-9649-8146-9097-e75d29f22cf4",
+      "lessonTitle": "2/09/26 - Create A Video For Free",
+      "section": "Weekly Classes",
+      "categories": [
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Prompt-based free video creation training.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-02-09"
+    },
+    {
+      "id": "32ce15f9-9649-8148-b616-c7ce19c15c1d",
+      "lessonTitle": "07/17/25 - Github Intro",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Brief intro to Github, Lovable training without using credits. N8N builds and workflows resources.",
+      "notes": null,
+      "keyTools": "GitHub, Lovable, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-17"
+    },
+    {
+      "id": "32ce15f9-9649-814a-92d0-d9747869c00d",
+      "lessonTitle": "08/07/25 - Retellai Basic Setup and Explanation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Retell AI setup and basics understanding for AI voice agents.",
+      "notes": null,
+      "keyTools": "Retell AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-07"
+    },
+    {
+      "id": "32ce15f9-9649-814a-afa8-d7d24f746f82",
+      "lessonTitle": "04/07/25 - Not Website But Problem Solving Builds",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Deep research reports and problem-solving build strategies for understanding business leaders.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-07"
+    },
+    {
+      "id": "32ce15f9-9649-814e-a5c6-c8f96687a833",
+      "lessonTitle": "03/10/25 - Data Button",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Data Button: The No-Code App Builder for Effortless Automation. Create custom apps, dashboards, and automation workflows without code.",
+      "notes": null,
+      "keyTools": "Data Button",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-10"
+    },
+    {
+      "id": "32ce15f9-9649-814e-a92e-d8dda2e5e977",
+      "lessonTitle": "11/3/25 - ChatBots Connected Directly To OpenAI",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Chatbot setup connected directly to OpenAI. GHL Bot handles conversations, lead capture, FAQs, appointment booking.",
+      "notes": null,
+      "keyTools": "OpenAI, Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "32ce15f9-9649-814f-ac11-d65edc89155e",
+      "lessonTitle": "12/16/2024 Office Hours",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "General Q&A office hours session.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "32ce15f9-9649-8150-b487-d9968c9e5887",
+      "lessonTitle": "03-27-25 - Cap Cut Training",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Social Media",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on CapCut video editing software for content creation.",
+      "notes": null,
+      "keyTools": "CapCut",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-27"
+    },
+    {
+      "id": "32ce15f9-9649-8151-82a5-de2d34014516",
+      "lessonTitle": "09/22/25 - AI SEO Continuation",
+      "section": "Office Hours",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Download the Custom Build Calculator. Continuation of AI SEO training.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-22"
+    },
+    {
+      "id": "32ce15f9-9649-8151-9e92-cf22fc22e703",
+      "lessonTitle": "10-06-25 - Heygen Automation With n8n",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation",
+        "SEO & Content",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Content Manager Prompt for AEO, SEO, GEO, EEAT, JSON-LD. HeyGen automation build with n8n for video bot creation.",
+      "notes": null,
+      "keyTools": "HeyGen, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-06"
+    },
+    {
+      "id": "32ce15f9-9649-8152-ad0e-fe075fbb2d29",
+      "lessonTitle": "07-03-25 - Pinecone Assistant RAG",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building RAG (Retrieval Augmented Generation) systems with Pinecone for AI assistants",
+      "notes": null,
+      "keyTools": "Pinecone, RAG",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "32ce15f9-9649-8153-8ec9-c4dc8dfe43d1",
+      "lessonTitle": "10/23/25 - AOF Continued",
+      "section": "Weekly Classes",
+      "categories": [
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AOF (Assets, Outcomes, Framework) consultant and CRM systems architect for GoHighLevel builds. Transform Q&A into structured client-facing documents.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-23"
+    },
+    {
+      "id": "32ce15f9-9649-8156-b1e8-ee451eacee38",
+      "lessonTitle": "03-13-25 - Webhooks In GHL & Data Button",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Web Dev & Design",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Webhooks, Data Mapping & Database Setup Masterclass. How to set up and configure webhooks to capture and process incoming data in Go High Level.",
+      "notes": null,
+      "keyTools": "Go High Level, Data Button",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-13"
+    },
+    {
+      "id": "32ce15f9-9649-8157-801d-c2acbd8aa1ea",
+      "lessonTitle": "10-02-25 - Custom AI Image Creation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Advanced training on creating custom realistic AI images for marketing and branding",
+      "notes": null,
+      "keyTools": "AI Image tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-02"
+    },
+    {
+      "id": "32ce15f9-9649-8157-8fe6-cc39470e2587",
+      "lessonTitle": "02/26/26 - Sales Training with Better Call Saul",
+      "section": "Weekly Classes",
+      "categories": [
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Sales training using frameworks inspired by persuasion and closing techniques.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "32ce15f9-9649-8157-ae03-f4f94a6d3334",
+      "lessonTitle": "06/02/25 - Pre Launch Class - Offer",
+      "section": "Office Hours",
+      "categories": [
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Joel Erway Power Offer concept. A direct, emotionally charged promise that makes your dream client take action.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-02"
+    },
+    {
+      "id": "32ce15f9-9649-815a-8369-c3f5eb46ca4f",
+      "lessonTitle": "01-27-25 - Preso In Minutes with AI",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Create presentations in minutes using AI tools.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-27"
+    },
+    {
+      "id": "32ce15f9-9649-815c-bf43-f5e6dc380f77",
+      "lessonTitle": "02-27-25 Lead Magnet",
+      "section": "Weekly Classes",
+      "categories": [
+        "Lead Generation",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "How to attract the right audience with a lead magnet after launching your offer. Create one that naturally leads to your paid product.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-27"
+    },
+    {
+      "id": "32ce15f9-9649-815e-854b-e300e7066321",
+      "lessonTitle": "08-28-25 - GHL Pipelines & CRM Setup",
+      "section": "Weekly Classes",
+      "categories": [
+        "Client Fulfillment",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setting up pipelines and CRM workflows in GoHighLevel for client management",
+      "notes": null,
+      "keyTools": "GoHighLevel",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-28"
+    },
+    {
+      "id": "32ce15f9-9649-815e-ba8f-dce17e0fefaa",
+      "lessonTitle": "08-14-25 - TOFU/MOFU/BOFU Content Frameworks",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Content marketing framework covering Top of Funnel, Middle of Funnel, and Bottom of Funnel strategies",
+      "notes": null,
+      "keyTools": "Content frameworks",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-14"
+    },
+    {
+      "id": "32ce15f9-9649-8160-8b3e-fb0749a7fcdf",
+      "lessonTitle": "06/12/25 - Custom CSS Calendars, Retell AI & ElevenLabs",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Three game-changing tools: Custom CSS Calendars in GHL, Retell AI voice agents, and ElevenLabs voice automation.",
+      "notes": null,
+      "keyTools": "Go High Level, Retell AI, ElevenLabs",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-12"
+    },
+    {
+      "id": "32ce15f9-9649-8163-9a7a-e5759b85b371",
+      "lessonTitle": "05-29-25 - Cold Email with Instantly & PhantomBuster",
+      "section": "Weekly Classes",
+      "categories": [
+        "Email Marketing",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Cold email marketing strategies using Instantly for email automation and PhantomBuster for lead scraping",
+      "notes": null,
+      "keyTools": "Instantly, PhantomBuster",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-29"
+    },
+    {
+      "id": "32ce15f9-9649-8166-adc8-f7f517fc6429",
+      "lessonTitle": "04/17/25 - Hostinger, Dashboards and Backend Builds",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on Hostinger hosting, building dashboards, and backend development.",
+      "notes": null,
+      "keyTools": "Hostinger",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-17"
+    },
+    {
+      "id": "32ce15f9-9649-8167-8e61-cc0e3b9fcc70",
+      "lessonTitle": "08/04/25 - AEO, GEO, SEO prompts",
+      "section": "Office Hours",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn the prompts to get the right AEO questions for your FAQ page and schema.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-04"
+    },
+    {
+      "id": "32ce15f9-9649-8169-acee-ea97f598c02e",
+      "lessonTitle": "05/29/25 - PDF Client Workflow Strategy",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "The C.L.E.A.R. System: Client Lifecycle Engine for Automation & Revenue. Step-by-step framework to build high-converting client systems in Go High Level.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-29"
+    },
+    {
+      "id": "32ce15f9-9649-816c-86e3-c41fb133a09b",
+      "lessonTitle": "06-12-25 - ElevenLabs Voice Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using ElevenLabs for AI voice cloning and voice automation in business workflows",
+      "notes": null,
+      "keyTools": "ElevenLabs",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-12"
+    },
+    {
+      "id": "32ce15f9-9649-816d-b632-e15321fd6f81",
+      "lessonTitle": "1/23/25 - Create Custom Realistic Images of Yourself and ANYTHING",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn to create custom realistic AI images of yourself and anything using AI image generation tools.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "32ce15f9-9649-8173-8069-f79ccc9d6974",
+      "lessonTitle": "07/14/2025 - Manus walkthrough and AEO, SEO, GEO update",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Manus AI walkthrough and Gunner SEO, AEO, GEO tool with Google AI Studio.",
+      "notes": null,
+      "keyTools": "Manus, Google AI Studio",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "32ce15f9-9649-8173-979f-e14399a7c332",
+      "lessonTitle": "12-12-2024 - Fully Automated Workflow",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Download Snapshot Here. Learn how to build a fully automated workflow.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "32ce15f9-9649-8176-9232-f73a442521b8",
+      "lessonTitle": "2-6-25 - Webflow Brief Overview",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Quick guide on how to edit, customize, and update your website inside Webflow.",
+      "notes": null,
+      "keyTools": "Webflow",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-8176-a450-c60ae73248bb",
+      "lessonTitle": "1/6/25 Office Hours",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "General Q&A office hours session.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-06"
+    },
+    {
+      "id": "32ce15f9-9649-8177-8974-cb4fdfac2cc3",
+      "lessonTitle": "12/18/2025 - Day 4 of AI Websites, Cluster Generator",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI Website course Day 4 covering cluster content generation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-18"
+    },
+    {
+      "id": "32ce15f9-9649-8177-a12a-cb5d684f8073",
+      "lessonTitle": "06-19-25 - HeyGen Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using HeyGen for AI video avatar creation and automated video content",
+      "notes": null,
+      "keyTools": "HeyGen",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-19"
+    },
+    {
+      "id": "32ce15f9-9649-8178-8a23-f8fb7650d5d0",
+      "lessonTitle": "03/31/25 - Hostinger - N8N Self Host",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Set up your N8N Self Host Account using Hostinger.",
+      "notes": null,
+      "keyTools": "N8N, Hostinger",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-31"
+    },
+    {
+      "id": "32ce15f9-9649-817b-8267-cd0fa7022374",
+      "lessonTitle": "12/30/24 Office Hours",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "General Q&A office hours session.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-30"
+    },
+    {
+      "id": "32ce15f9-9649-817c-9281-f1b63cf54d7f",
+      "lessonTitle": "08/28/25 - Nano Banana",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Resources for n8n, Telegram BotFather, OpenAI API, Kie AI, and Fal AI integration.",
+      "notes": null,
+      "keyTools": "N8N, Telegram, OpenAI, Kie AI, Fal AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-28"
+    },
+    {
+      "id": "32ce15f9-9649-817d-b562-c46489616768",
+      "lessonTitle": "05/08/25 - Lead Generation Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI-Powered Lead Generation on Autopilot. Blending Telegram alerts, Apify scraping, LinkedIn deep dives, and Perplexity-powered research for automated prospecting.",
+      "notes": null,
+      "keyTools": "Telegram, Apify, Perplexity",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-08"
+    },
+    {
+      "id": "32ce15f9-9649-817d-b959-de4984138cc6",
+      "lessonTitle": "05/26/25 - Get Data Inside N8N and Then Get That Data Inside GHL",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Take data your voice bot captures (name, number, email) and automatically store it inside custom fields in Go High Level.",
+      "notes": null,
+      "keyTools": "N8N, Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-26"
+    },
+    {
+      "id": "32ce15f9-9649-817e-b47d-e431b85e2bb2",
+      "lessonTitle": "2-6-25 - Webflow Brief Overview",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Quick guide on how to edit, customize, and update your website inside Webflow.",
+      "notes": null,
+      "keyTools": "Webflow",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-8181-ac9d-fe0e0540205b",
+      "lessonTitle": "01/16/25 GHL Workflow Basics",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn how to build workflows that automate your whole GHL system.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-16"
+    },
+    {
+      "id": "32ce15f9-9649-8182-8dab-f1f770851a95",
+      "lessonTitle": "05-22-25 - SEO/AEO/GEO Education",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Comprehensive training on SEO, Answer Engine Optimization, and Generative Engine Optimization to make websites findable",
+      "notes": null,
+      "keyTools": "SEO tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-22"
+    },
+    {
+      "id": "32ce15f9-9649-8182-b094-f85a8e76665e",
+      "lessonTitle": "09-25-25 - SEO Implementation Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Hands-on SEO implementation walkthrough with practical exercises",
+      "notes": null,
+      "keyTools": "SEO tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-25"
+    },
+    {
+      "id": "32ce15f9-9649-8185-8590-d9285139deef",
+      "lessonTitle": "02/03/25 - Q/A",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "General Q&A office hours session.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-03"
+    },
+    {
+      "id": "32ce15f9-9649-8187-b4f5-dfc25c3e3139",
+      "lessonTitle": "08-07-25 - Cluster Content Generation",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Creating cluster content strategies for SEO and content marketing",
+      "notes": null,
+      "keyTools": "Content tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-07"
+    },
+    {
+      "id": "32ce15f9-9649-8189-8793-d623af6c6eed",
+      "lessonTitle": "05/15/25 - Reddit Scraper & Content Creator",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "SEO & Content",
+        "Lead Generation",
+        "Web Dev & Design",
+        "Social Media"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building a dark-mode app inside Lovable to search, filter, and repurpose viral Reddit content then share to Twitter, LinkedIn.",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-15"
+    },
+    {
+      "id": "32ce15f9-9649-818a-9172-c309bcc130e7",
+      "lessonTitle": "09/29/25 - AI SEO - Ads Automation - Documentation",
+      "section": "Office Hours",
+      "categories": [
+        "SEO & Content",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI SEO implementation, ads automation setup, and documentation practices.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-29"
+    },
+    {
+      "id": "32ce15f9-9649-818c-b15c-dac7468b0c0b",
+      "lessonTitle": "07-24-25 - Antigravity Framework",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on the Antigravity framework for web development",
+      "notes": null,
+      "keyTools": "Antigravity",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-24"
+    },
+    {
+      "id": "32ce15f9-9649-818e-946f-c9950a9cb3fd",
+      "lessonTitle": "10/27/25 - AI Website Build Must Haves",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Master Prompt for AI website builds. Pages: QA, FAQ, About, Home, Admin with Blog Generator, QA Generator, Image Generator, Diagram Generator.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-27"
+    },
+    {
+      "id": "32ce15f9-9649-8190-a211-c38d6170c165",
+      "lessonTitle": "2/20/25 - Offer Explanation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Broke down what an offer is and how to make yours clear, compelling, and cash-generating. Walked through personalized ChatGPTs to streamline business.",
+      "notes": null,
+      "keyTools": "ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-20"
+    },
+    {
+      "id": "32ce15f9-9649-8191-9fd4-ed40faa6b525",
+      "lessonTitle": "05/15/25 - Reddit Scraper & Content Creator",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "SEO & Content",
+        "Lead Generation",
+        "Web Dev & Design",
+        "Social Media"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building a dark-mode app inside Lovable to search, filter, and repurpose viral Reddit content then share to Twitter, LinkedIn.",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-15"
+    },
+    {
+      "id": "32ce15f9-9649-8195-9d2e-c6d7f5ea3b2c",
+      "lessonTitle": "07-10-25 - Supabase + Google AI Studio",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Integrating Supabase database with Google AI Studio for AI-powered applications",
+      "notes": null,
+      "keyTools": "Supabase, Google AI Studio",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-10"
+    },
+    {
+      "id": "32ce15f9-9649-8196-a6af-d943da5d6f2b",
+      "lessonTitle": "12-12-2024 - Fully Automated Workflow",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Download Snapshot Here. Learn how to build a fully automated workflow.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "32ce15f9-9649-8197-afc0-d3e611425ca1",
+      "lessonTitle": "05-22-25 - SEO/AEO/GEO Education",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Comprehensive training on SEO, Answer Engine Optimization, and Generative Engine Optimization to make websites findable",
+      "notes": null,
+      "keyTools": "SEO tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-22"
+    },
+    {
+      "id": "32ce15f9-9649-8198-a053-f9371b673b73",
+      "lessonTitle": "03-20-25 - Data Button BBQ Build",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Google Screenshot Extension demo. SaaS build with Data Button platform.",
+      "notes": null,
+      "keyTools": "Data Button",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-20"
+    },
+    {
+      "id": "32ce15f9-9649-819b-a343-fe7bf2b164a0",
+      "lessonTitle": "03-20-25 - Data Button BBQ Build",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Google Screenshot Extension demo. SaaS build with Data Button platform.",
+      "notes": null,
+      "keyTools": "Data Button",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-20"
+    },
+    {
+      "id": "32ce15f9-9649-819c-8a05-f8eefe5de09b",
+      "lessonTitle": "03/16/2026 - NEW Embeddings 2 RAG",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building an AI-Powered Insurance Underwriting RAG System. Upload carrier guidelines and get AI-powered answers about products.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-03-16"
+    },
+    {
+      "id": "32ce15f9-9649-819d-ab9a-f29963b9262a",
+      "lessonTitle": "04/28/25 - GHL Webhooks",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn how to send and receive webhooks with GHL and other platforms.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-28"
+    },
+    {
+      "id": "32ce15f9-9649-819d-b740-c0543387c212",
+      "lessonTitle": "05/01/25 - Cup Cut Video Training",
+      "section": "Weekly Classes",
+      "categories": [
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Low",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Split-screen self-dialogue (clone effect): plan, film and composite two takes into a seamless conversation.",
+      "notes": null,
+      "keyTools": "CapCut",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "32ce15f9-9649-819d-bf82-ddf0be20ad0d",
+      "lessonTitle": "03/09/26 - New A2P",
+      "section": "Weekly Classes",
+      "categories": [
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "New A2P (Application-to-Person) messaging compliance and setup training.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "32ce15f9-9649-81a0-a8d9-cf718dce537e",
+      "lessonTitle": "08/11/25 - Email Automator with MEMORY",
+      "section": "Office Hours",
+      "categories": [
+        "Email Marketing",
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Lovable memory system code for building a functional chat interface with memory capabilities.",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-11"
+    },
+    {
+      "id": "32ce15f9-9649-81a4-8c1e-f352c818c953",
+      "lessonTitle": "11/24/25 - Marcus TOOLS prompt explained",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Marcus AI tools prompt explanation and AOF completed document walkthrough.",
+      "notes": null,
+      "keyTools": "Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-11-24"
+    },
+    {
+      "id": "32ce15f9-9649-81a5-9e2c-d56c8aab8c1f",
+      "lessonTitle": "01-09-25 - Lovable AI Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Walkthrough of Lovable AI app building platform",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-09"
+    },
+    {
+      "id": "32ce15f9-9649-81a5-b323-e3dc60be4072",
+      "lessonTitle": "01/05/25 - Antigravity Intro",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Build an app that helps a specific type of person solve a specific type of problem. Antigravity platform introduction.",
+      "notes": null,
+      "keyTools": "Antigravity",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-05"
+    },
+    {
+      "id": "32ce15f9-9649-81a8-880e-e6c2f0ba6f7b",
+      "lessonTitle": "03-03-25 - ChatBot Build",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Build a custom chatbot/Custom GPT and put it on your personal website.",
+      "notes": null,
+      "keyTools": "ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-03"
+    },
+    {
+      "id": "32ce15f9-9649-81ab-8973-e9c9c8d361aa",
+      "lessonTitle": "06/26/25 - PhantomBuster Cold Email Outreach (LinkedIn)",
+      "section": "Weekly Classes",
+      "categories": [
+        "Lead Generation",
+        "Email Marketing"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Web scrape leads for cold email and LinkedIn outreach. How to cold message people on LinkedIn using PhantomBuster.",
+      "notes": null,
+      "keyTools": "PhantomBuster",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-26"
+    },
+    {
+      "id": "32ce15f9-9649-81ab-924a-d3e0189e56b1",
+      "lessonTitle": "08-21-25 - GHL Webhooks Deep Dive",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Advanced webhook configuration in GoHighLevel for data processing and automation",
+      "notes": null,
+      "keyTools": "GoHighLevel",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-21"
+    },
+    {
+      "id": "32ce15f9-9649-81ad-8b81-f6c6910d4262",
+      "lessonTitle": "01-16-25 - GHL Workflow Basics",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "GoHighLevel workflow fundamentals - building automation workflows for client management",
+      "notes": null,
+      "keyTools": "GoHighLevel",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-16"
+    },
+    {
+      "id": "32ce15f9-9649-81ad-8e52-feba501e2b7c",
+      "lessonTitle": "09-04-25 - N8N RAG Systems",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building RAG (Retrieval Augmented Generation) systems using N8N automation platform",
+      "notes": null,
+      "keyTools": "N8N, RAG",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "32ce15f9-9649-81ae-91ef-f54c8a49d90e",
+      "lessonTitle": "12-19-24 - Fully Automated Workflows",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Introduction to building fully automated workflows for business processes",
+      "notes": null,
+      "keyTools": "N8N, GoHighLevel",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "32ce15f9-9649-81b1-bbf2-e914eb46a9b4",
+      "lessonTitle": "05/05/25 - Webhooks, ElevenLabs & Data In and Out of GHL",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Mastering Webhooks and ElevenLabs Voice Automation. Generate AI voiceovers for marketing, outreach, and content.",
+      "notes": null,
+      "keyTools": "Go High Level, ElevenLabs",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-05"
+    },
+    {
+      "id": "32ce15f9-9649-81b2-8d23-d1d98525b8da",
+      "lessonTitle": "08-15-25 - AOF doc and Memory Automation Walk Through",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AOF (Assets, Outcomes, Framework) document creation and Memory Automation walkthrough.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-15"
+    },
+    {
+      "id": "32ce15f9-9649-81b3-b3ee-d254df8bd1c5",
+      "lessonTitle": "06-26-25 - Marcus AI Setup & Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setup and walkthrough of Marcus AI platform for business automation",
+      "notes": null,
+      "keyTools": "Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-26"
+    },
+    {
+      "id": "32ce15f9-9649-81b3-be98-c62aa5e45fb0",
+      "lessonTitle": "06-05-25 - Retell AI Setup",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setting up Retell AI for voice automation and AI phone calling",
+      "notes": null,
+      "keyTools": "Retell AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-05"
+    },
+    {
+      "id": "32ce15f9-9649-81b4-b2dd-c4f9fa5ce58a",
+      "lessonTitle": "06/17/25 - Coolify and N8N Fix For Bonita",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Extra office hours to fix Coolify and N8N issues.",
+      "notes": null,
+      "keyTools": "Coolify, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-17"
+    },
+    {
+      "id": "32ce15f9-9649-81b5-8c3e-da378f969994",
+      "lessonTitle": "03-06-25 - Live Build w/ Website Scraper Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Live training on Web Scraper automation inside \nMake.com\n. Download and copy-paste into your own account.",
+      "notes": null,
+      "keyTools": "Make.com",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-06"
+    },
+    {
+      "id": "32ce15f9-9649-81b5-9d5f-ec94f1dd54b3",
+      "lessonTitle": "TEST - 12-12-2024 - Fully Automated Workflow",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Download Snapshot Here. Learn how to build a fully automated workflow.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "32ce15f9-9649-81b5-b24c-d8759b5e2ed0",
+      "lessonTitle": "04-03-25 - N8N OUTREACH AUTOMATION",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Lead Gen automation with N8N. Setup walkthrough for outreach automation.",
+      "notes": null,
+      "keyTools": "N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-03"
+    },
+    {
+      "id": "32ce15f9-9649-81b6-8709-ddb673872589",
+      "lessonTitle": "04/14/25 - RAG System BUILD in N8N",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Work along and build an N8N RAG (Retrieval-Augmented Generation) system.",
+      "notes": null,
+      "keyTools": "N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-14"
+    },
+    {
+      "id": "32ce15f9-9649-81b6-9e19-dd90219696cb",
+      "lessonTitle": "1-2-24  Bolt.new  and Loveable ai Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Walkthrough of \nBolt.new\n and Lovable AI for building web apps and sites.",
+      "notes": null,
+      "keyTools": "Lovable, \nBolt.new",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "32ce15f9-9649-81b7-81c1-de00f1e9b4b6",
+      "lessonTitle": "12-26-24 - Social Media Flux Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Social Media"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Automating social media content creation and posting workflows",
+      "notes": null,
+      "keyTools": "Flux, Social Media Tools",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-26"
+    },
+    {
+      "id": "32ce15f9-9649-81b8-8cff-fc3ec5ef8453",
+      "lessonTitle": "03-27-25 - Cap Cut Training",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Social Media",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on CapCut video editing software for content creation.",
+      "notes": null,
+      "keyTools": "CapCut",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-27"
+    },
+    {
+      "id": "32ce15f9-9649-81ba-9f2f-ec90e23b9ba2",
+      "lessonTitle": "12/08/2025 - AI Website Course (INTRO)",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI Website Course introduction with prompt sheet.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-08"
+    },
+    {
+      "id": "32ce15f9-9649-81ba-a7fc-c42ea7335153",
+      "lessonTitle": "1/23/25 - Create Custom Realistic Images of Yourself and ANYTHING",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn to create custom realistic AI images of yourself and anything using AI image generation tools.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "32ce15f9-9649-81bb-8169-ce5f10e5ce3d",
+      "lessonTitle": "09/18/25 - SEO, AEO, GEO Education and Lovable Implementation",
+      "section": "Weekly Classes",
+      "categories": [
+        "SEO & Content",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Key walkthrough for making websites findable. SEO, AEO, and GEO implementation with Lovable.",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-18"
+    },
+    {
+      "id": "32ce15f9-9649-81be-96bb-d9e82e29612a",
+      "lessonTitle": "02-27-25 Lead Magnet",
+      "section": "Weekly Classes",
+      "categories": [
+        "Lead Generation",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "How to attract the right audience with a lead magnet after launching your offer. Create one that naturally leads to your paid product.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-27"
+    },
+    {
+      "id": "32ce15f9-9649-81c0-9188-c54697fbf79c",
+      "lessonTitle": "04/24/25 - LinkedIn Automation with N8N",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "LinkedIn automation workflows using N8N, Tavily, and OpenAI integration.",
+      "notes": null,
+      "keyTools": "N8N, OpenAI, Tavily",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-24"
+    },
+    {
+      "id": "32ce15f9-9649-81c0-b858-fb4d4a428c92",
+      "lessonTitle": "05/08/25 - Lead Generation Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI-Powered Lead Generation on Autopilot. Blending Telegram alerts, Apify scraping, LinkedIn deep dives, and Perplexity-powered research.",
+      "notes": null,
+      "keyTools": "Telegram, Apify, Perplexity",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-08"
+    },
+    {
+      "id": "32ce15f9-9649-81c1-9d2d-f0511952eca9",
+      "lessonTitle": "2/20/25 - Offer Explanation",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Broke down what an offer is and how to make yours clear, compelling, and cash-generating. Walked through personalized ChatGPTs to streamline business.",
+      "notes": null,
+      "keyTools": "ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-20"
+    },
+    {
+      "id": "32ce15f9-9649-81c1-a0e2-d720414fb943",
+      "lessonTitle": "03-06-25 - Live Build w/ Website Scraper Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Live training on Web Scraper automation inside \nMake.com\n. Download from the Download Section and copy-paste into your own account.",
+      "notes": null,
+      "keyTools": "Make.com",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-06"
+    },
+    {
+      "id": "32ce15f9-9649-81c2-b754-ee9471218615",
+      "lessonTitle": "02-27-25 Lead Magnet",
+      "section": "Weekly Classes",
+      "categories": [
+        "Lead Generation",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "How to attract the right audience with a lead magnet after launching your offer. Create one that naturally leads to your paid product.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-27"
+    },
+    {
+      "id": "32ce15f9-9649-81c4-9a0f-fb2f3ca93a4b",
+      "lessonTitle": "1-2-24  Bolt.new  and Loveable ai Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Walkthrough of \nBolt.new\n and Lovable AI for building web apps and sites.",
+      "notes": null,
+      "keyTools": "Lovable, \nBolt.new",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "32ce15f9-9649-81c4-ba7d-d0c263e78979",
+      "lessonTitle": "01/12/26 - Building a Collaborative AI Website Dream Team and High-Ticket Delivery System",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building AI-powered websites as a collaborative team, inspired by high-level marketing agencies and team-based businesses.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-12"
+    },
+    {
+      "id": "32ce15f9-9649-81c9-a241-cea94752e540",
+      "lessonTitle": "12/19/2024 - Social Media Flux Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "SEO & Content",
+        "Social Media"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Social media automation using Flux AI for content creation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "32ce15f9-9649-81cb-9391-e1be6a7c7ed2",
+      "lessonTitle": "08/18/25 - Human Like Video Creation",
+      "section": "Office Hours",
+      "categories": [
+        "Video & Creative",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on creating human-like AI video content.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-08-18"
+    },
+    {
+      "id": "32ce15f9-9649-81d2-8aee-ec9975725d0b",
+      "lessonTitle": "10/13/25 - AOF Training",
+      "section": "Office Hours",
+      "categories": [
+        "Client Fulfillment",
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AOF Framework (Assets, Outcome, Framework) introduction. Transform agency selling using HighLevel from SaaS-focused to technology consultancy.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "32ce15f9-9649-81d4-9d06-c3351237fd36",
+      "lessonTitle": "02/17/25 - Copy Coached",
+      "section": "Office Hours",
+      "categories": [
+        "SEO & Content",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Explored CopyCoached, a content creation tool for crafting compelling content that converts for businesses and clients.",
+      "notes": null,
+      "keyTools": "CopyCoached",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-17"
+    },
+    {
+      "id": "32ce15f9-9649-81d8-8368-dd3052af52b9",
+      "lessonTitle": "10/2/25 - Heygen - Bonita",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Video & Creative"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Bonita's Custom GPT Prompt with HeyGen and ElevenLabs for AI video creation.",
+      "notes": null,
+      "keyTools": "HeyGen, ElevenLabs, ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-02"
+    },
+    {
+      "id": "32ce15f9-9649-81d8-867b-d70a65b92aa4",
+      "lessonTitle": "06/09/25 - AutoMate Your GHL with Building Your Snapshot",
+      "section": "Office Hours",
+      "categories": [
+        "Automation",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Build your GHL snapshot for automation. Import and customize your Go High Level snapshot.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-09"
+    },
+    {
+      "id": "32ce15f9-9649-81d9-b2a2-ccf0a05ea1df",
+      "lessonTitle": "06-26-25 - Marcus AI Setup & Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setup and walkthrough of Marcus AI platform for business automation",
+      "notes": null,
+      "keyTools": "Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-26"
+    },
+    {
+      "id": "32ce15f9-9649-81da-9468-d03a9d60e67f",
+      "lessonTitle": "01-19-26 - ANTIGRAVITY Master Prompt",
+      "section": "Office Hours",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AntiGravity Master Prompt: B.L.A.S.T. Master System Prompt for building deterministic, self-healing automation in Antigravity.",
+      "notes": null,
+      "keyTools": "Antigravity",
+      "transcriptionStatus": "Not Available",
+      "date": "2026-01-19"
+    },
+    {
+      "id": "32ce15f9-9649-81db-b6cc-e3dd4325243c",
+      "lessonTitle": "12/11/2025 - Day 2 of AI Websites - Connecting Supabase to Google AI Studio",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Gunner walks through connecting Google AI Studio accounts to Supabase for AI websites.",
+      "notes": null,
+      "keyTools": "Supabase, Google AI Studio",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-11"
+    },
+    {
+      "id": "32ce15f9-9649-81dc-9ca1-e35a239cdd1e",
+      "lessonTitle": "12/22/25 - Day 5 Walkthrough of AI Websites wit QA",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI Website course Day 5 with QA (Question & Answer) implementation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-22"
+    },
+    {
+      "id": "32ce15f9-9649-81de-ab3b-f7cfc31d5f50",
+      "lessonTitle": "06/19/25 - Demo Automation Build Example",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Sales & Offers",
+        "Client Fulfillment"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Automate AI Lead-to-Speed Demo full build breakdown. Step-by-step sales automation inside Go High Level.",
+      "notes": null,
+      "keyTools": "Go High Level",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-19"
+    },
+    {
+      "id": "32ce15f9-9649-81df-87ca-c79d144b0b59",
+      "lessonTitle": "09-11-25 - Telegram Bot Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Building Telegram bot automations for business communication and alerts",
+      "notes": null,
+      "keyTools": "Telegram, N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-11"
+    },
+    {
+      "id": "32ce15f9-9649-81df-b83f-df4e0bd6d833",
+      "lessonTitle": "11-20-25 - Marcus Walkthrough and Assistant SETUP",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "How to setup AI Assistants for Marcus AI platform.",
+      "notes": null,
+      "keyTools": "Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-11-20"
+    },
+    {
+      "id": "32ce15f9-9649-81e1-9d90-dcb7245a3998",
+      "lessonTitle": "05-29-25 - Cold Email with Instantly & PhantomBuster",
+      "section": "Weekly Classes",
+      "categories": [
+        "Email Marketing",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Cold email marketing strategies using Instantly for email automation and PhantomBuster for lead scraping",
+      "notes": null,
+      "keyTools": "Instantly, PhantomBuster",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-05-29"
+    },
+    {
+      "id": "32ce15f9-9649-81e3-bf46-dd988d20efee",
+      "lessonTitle": "09-18-25 - Sales Training & Close Techniques",
+      "section": "Weekly Classes",
+      "categories": [
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Sales training covering closing techniques and sales process optimization",
+      "notes": null,
+      "keyTools": "Sales frameworks",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-09-18"
+    },
+    {
+      "id": "32ce15f9-9649-81e8-bcb0-f123b86c226e",
+      "lessonTitle": "12/19/2024 - Social Media Flux Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "SEO & Content",
+        "Social Media"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Social media automation using Flux AI for content creation.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "32ce15f9-9649-81ea-b84c-ef991b7e0265",
+      "lessonTitle": "12/15/2025 - Day 3 - AI Website with Lovable",
+      "section": "Office Hours",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "AI Website course Day 3 building with Lovable platform.",
+      "notes": null,
+      "keyTools": "Lovable",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-12-15"
+    },
+    {
+      "id": "32ce15f9-9649-81ea-bc78-eb6f50171035",
+      "lessonTitle": "06/18/25 - Workflow Automation Walkthrough for Kelvin",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Extra office hours for workflow build outs for Kelvin.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-18"
+    },
+    {
+      "id": "32ce15f9-9649-81eb-8c22-ed9b3dbf46bb",
+      "lessonTitle": "11-06-25 - Marcus AI Setup",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setup guide for Marcus AI platform.",
+      "notes": null,
+      "keyTools": "Marcus AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-11-06"
+    },
+    {
+      "id": "32ce15f9-9649-81ec-b826-fd0ee1d502e0",
+      "lessonTitle": "04/24/25 - LinkedIn Automation with N8N",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "AI Tools",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "LinkedIn automation workflows using N8N, Tavily, and OpenAI integration.",
+      "notes": null,
+      "keyTools": "N8N, OpenAI, Tavily",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-24"
+    },
+    {
+      "id": "32ce15f9-9649-81ee-94a8-eb5e369c32f3",
+      "lessonTitle": "04/10/25 - N8N Automation and Chat",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "N8N walkthrough of basics and the new outreach automation. N8N fundamentals training.",
+      "notes": null,
+      "keyTools": "N8N",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-04-10"
+    },
+    {
+      "id": "32ce15f9-9649-81ef-97c9-cd907b4c2873",
+      "lessonTitle": "1-2-24  Bolt.new  and Loveable ai Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Walkthrough of \nBolt.new\n and Lovable AI for building web apps and sites.",
+      "notes": null,
+      "keyTools": "Lovable, \nBolt.new",
+      "transcriptionStatus": "Not Available",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "32ce15f9-9649-81f2-99b2-cd20ae3f2a4e",
+      "lessonTitle": "02-24-25 - Launch Day Training",
+      "section": "Office Hours",
+      "categories": [
+        "Sales & Offers"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Launch day preparation and training session.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-24"
+    },
+    {
+      "id": "32ce15f9-9649-81f6-b9dc-e079a334dfd3",
+      "lessonTitle": "10-9-25 New Rag",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "How to get ahead of 99% of businesses using n8n AI RAG system with superior vectorization model. Tools: Hugging Face, Pinecone.",
+      "notes": null,
+      "keyTools": "N8N, Hugging Face, Pinecone",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-10-09"
+    },
+    {
+      "id": "32ce15f9-9649-81f7-ab72-d55d067faa83",
+      "lessonTitle": "06/16/25 - Cold Email Marketing - Instantly",
+      "section": "Office Hours",
+      "categories": [
+        "Email Marketing",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using Instantly for cold email at scale, automation, and deliverability. Built to land in inboxes, track replies, and run multiple campaigns.",
+      "notes": null,
+      "keyTools": "Instantly",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-16"
+    },
+    {
+      "id": "32ce15f9-9649-81f7-b285-c78a521ea829",
+      "lessonTitle": "07/24/25 - Resend Setup For Lovable",
+      "section": "Weekly Classes",
+      "categories": [
+        "Email Marketing",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Learn how to send emails directly from Lovable using Supabase without N8N or \nMake.com\n.",
+      "notes": null,
+      "keyTools": "Lovable, Supabase, Resend",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-24"
+    },
+    {
+      "id": "32ce15f9-9649-81f9-9c7c-d704e8451497",
+      "lessonTitle": "03-06-25 - Live Build w/ Website Scraper Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Web Dev & Design"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Live training on Web Scraper automation inside \nMake.com\n. Download from the Download Section and copy-paste into your own account.",
+      "notes": null,
+      "keyTools": "Make.com",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-03-06"
+    },
+    {
+      "id": "32ce15f9-9649-81fc-92cf-f43cf0cdaa6e",
+      "lessonTitle": "06-05-25 - Retell AI Setup",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Automation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Setting up Retell AI for voice automation and AI phone calling",
+      "notes": null,
+      "keyTools": "Retell AI",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-06-05"
+    },
+    {
+      "id": "32ce15f9-9649-81fd-9651-e2fb84c0cea1",
+      "lessonTitle": "07/31/25 - Agent Mode ChatGPT",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Training on ChatGPT Agent Mode capabilities and usage.",
+      "notes": null,
+      "keyTools": "ChatGPT",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-31"
+    },
+    {
+      "id": "32ce15f9-9649-81fd-9a04-ea137a419acf",
+      "lessonTitle": "2-6-25 FB Group Scrap and Automation",
+      "section": "Weekly Classes",
+      "categories": [
+        "Automation",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Extract Facebook group member lists, drop into Google Sheets, and auto-send personalized DMs on autopilot.",
+      "notes": null,
+      "keyTools": "N/A",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-02-06"
+    },
+    {
+      "id": "32ce15f9-9649-81fd-a024-cba27ddcc9f6",
+      "lessonTitle": "07-31-25 - SaaS Research with Firecrawl",
+      "section": "Weekly Classes",
+      "categories": [
+        "AI Tools",
+        "Lead Generation"
+      ],
+      "agencyRelevance": "High",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Using Firecrawl for SaaS research and competitive analysis through web crawling",
+      "notes": null,
+      "keyTools": "Firecrawl",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-07-31"
+    },
+    {
+      "id": "32ce15f9-9649-81fe-98ab-c30961abf2c4",
+      "lessonTitle": "01-02-25 -  Bolt.new  Walkthrough",
+      "section": "Weekly Classes",
+      "categories": [
+        "Web Dev & Design",
+        "AI Tools"
+      ],
+      "agencyRelevance": "Medium",
+      "lessonUrl": null,
+      "resourceLinks": null,
+      "attachments": null,
+      "description": "Walkthrough of \nBolt.new\n AI-powered development tool",
+      "notes": null,
+      "keyTools": "Bolt.new",
+      "transcriptionStatus": "Not Available",
+      "date": "2025-01-02"
+    }
+  ]
+}

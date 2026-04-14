@@ -58,4 +58,5 @@ export async function summarizeDocument(documentId: string, _formData?: FormData
   }
 
   revalidatePath("/");
+  revalidatePath("/projects");
 }
