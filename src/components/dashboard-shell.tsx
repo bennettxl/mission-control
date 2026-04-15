@@ -14,6 +14,7 @@ import {
   LogOut,
   type LucideIcon,
 } from "lucide-react";
+import { ThemeToggle } from "./theme-toggle";
 
 type NavItem = {
   href: string;
@@ -88,7 +89,8 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
           })}
         </nav>
 
-        <div className="border-t border-white/5 p-3">
+        <div className="border-t border-white/5 p-3 space-y-2">
+          <ThemeToggle />
           <button
             type="button"
             onClick={handleLogout}
@@ -112,13 +114,16 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
           />
           <span className="text-sm font-semibold text-white">Mission Control</span>
         </Link>
-        <button
-          type="button"
-          onClick={handleLogout}
-          className="rounded-lg p-2 text-white/40 transition hover:bg-white/5 hover:text-white/60"
-        >
-          <LogOut size={16} />
-        </button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="rounded-lg p-2 text-white/40 transition hover:bg-white/5 hover:text-white/60"
+          >
+            <LogOut size={16} />
+          </button>
+        </div>
       </header>
 
       {/* Main content area */}
