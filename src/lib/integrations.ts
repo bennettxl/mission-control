@@ -28,4 +28,11 @@ export const INTEGRATIONS: IntegrationConfig[] = [
     guide: "https://openrouter.ai/keys",
     description: "Let Mission Control summarize docs and turn natural language into tasks.",
   },
+  {
+    key: "n8n",
+    name: "n8n",
+    envVar: "N8N_API_KEY",
+    guide: "https://docs.n8n.io/api/",
+    description: "Workflow automation — trigger, monitor, and report on n8n pipelines.",
+  },
 ];

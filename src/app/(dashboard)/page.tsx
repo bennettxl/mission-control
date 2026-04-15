@@ -70,6 +70,7 @@ const SUB_AGENTS = [
   { name: "Notion Sync", parent: "Adept Forge", role: "Task & Doc Connector", color: "violet" },
   { name: "Google Drive", parent: "Adept Forge", role: "Doc Mirror & Specs", color: "violet" },
   { name: "OpenRouter", parent: "Signal Monitor", role: "Model Routing & Cost Tracking", color: "amber" },
+  { name: "n8n", parent: "Adept Forge", role: "Workflow Automation (Cloud → Self-hosted)", color: "violet" },
 ];
 
 
@@ -155,8 +156,8 @@ export default async function OverviewPage() {
         <SystemOverviewCard number="8" label="Pods" subtitle="XL + 7 workstream pods" />
         <SystemOverviewCard number="13" label="Cron Jobs" subtitle="12 enabled / 1 one-shot" />
         <SystemOverviewCard number="35+" label="Skills" subtitle="across OpenClaw" />
-        <SystemOverviewCard number="8" label="Sub-Agents" subtitle="integrations & services" />
-        <SystemOverviewCard number="6" label="Platforms" subtitle="Discord, Notion, Drive, GHL..." />
+        <SystemOverviewCard number="9" label="Sub-Agents" subtitle="integrations & services" />
+        <SystemOverviewCard number="7" label="Platforms" subtitle="Discord, Notion, Drive, n8n..." />
       </div>
 
       {/* Connectors */}
