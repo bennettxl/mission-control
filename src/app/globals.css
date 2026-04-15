@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-/* âââ XLInteractive Brand Tokens âââ */
+/* --- XLInteractive Brand Tokens --- */
 :root {
-  /* Surfaces â zinc scale for dark dashboard */
+  /* Surfaces - zinc scale for dark dashboard */
   --bg-base: #09090b;
   --bg-surface: #18181b;
   --bg-raised: #27272a;
@@ -16,19 +16,19 @@
   --text-secondary: #a1a1aa;
   --text-muted: #71717a;
 
-  /* XL Brand â Red (from xlinteractive.com) */
+  /* XL Brand - Red (from xlinteractive.com) */
   --brand: #dc2626;
   --brand-hover: #ef4444;
   --brand-subtle: rgba(220, 38, 38, 0.1);
   --brand-glow: rgba(220, 38, 38, 0.2);
 
-  /* Status â semantic (data layer) */
+  /* Status - semantic (data layer) */
   --success: #22c55e;
   --warning: #eab308;
   --danger: #ef4444;
   --info: #3b82f6;
 
-  /* Data accent â neutral for charts */
+  /* Data accent - neutral for charts */
   --data: #64748b;
   --data-highlight: #94a3b8;
 
@@ -66,7 +66,7 @@ body {
   color: #fff;
 }
 
-/* âââ Panel Components âââ */
+/* --- Panel Components --- */
 .masked-panel {
   background: var(--bg-surface);
   border: 1px solid var(--border-default);
@@ -80,7 +80,7 @@ body {
   border-radius: 0.75rem;
 }
 
-/* âââ Tags & Badges âââ */
+/* --- Tags & Badges --- */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -94,7 +94,7 @@ body {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* âââ Navigation âââ */
+/* --- Navigation --- */
 .nav-surface {
   background: rgba(9, 9, 11, 0.95);
   border: 1px solid var(--border-default);
@@ -120,7 +120,7 @@ body {
   border-left: 2px solid var(--brand);
 }
 
-/* âââ Grid & Cards âââ */
+/* --- Grid & Cards --- */
 .grid-field {
   background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
@@ -174,7 +174,7 @@ body {
   color: #fff;
 }
 
-/* âââ Login Page âââ */
+/* --- Login Page --- */
 .login-grid-bg {
   background-image:
     linear-gradient(rgba(220, 38, 38, 0.03) 1px, transparent 1px),
@@ -186,7 +186,7 @@ body {
   background: radial-gradient(circle at 50% 40%, var(--brand-glow), transparent 60%);
 }
 
-/* âââ Animations âââ */
+/* --- Animations --- */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -209,4 +209,26 @@ body {
 
 .animate-pulse-subtle {
   animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+/* --- Light Mode --- */
+.light {
+  --bg-base: #f8f9fa;
+  --bg-surface: #ffffff;
+  --bg-raised: #f1f3f5;
+  --border-default: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.15);
+  --text-primary: #09090b;
+  --text-secondary: #52525b;
+  --text-muted: #a1a1aa;
+  --brand: #dc2626;
+  --brand-hover: #b91c1c;
+  --brand-subtle: rgba(220, 38, 38, 0.08);
+  --brand-glow: rgba(220, 38, 38, 0.1);
+}
+
+.light body {
+  background-image: none;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
 }
