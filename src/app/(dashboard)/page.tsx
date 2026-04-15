@@ -51,27 +51,25 @@ const BORDER_TOP_MAP: Record<string, string> = {
 };
 
 const POD_HEADS = [
-  { name: "Main", role: "Router & System Orchestrator", model: "openai-codex/gpt-5.4", color: "emerald", detail: "default router - no direct crons" },
-  { name: "Jessica", role: "Chief of Staff / Mission Control", model: "openai-codex/gpt-5.4", color: "violet", detail: "4 crons - cross-pod digest, sales recap, SOP, memory" },
-  { name: "Kirk", role: "FluidCloud Sales & Partnerships", model: "openai-codex/gpt-5.4", color: "amber", detail: "16 crons / 27 skills - intent, POC, outbound stack, prep" },
-  { name: "Work", role: "Host Trusted / Engineering Ops", model: "openai-codex/gpt-5.4", color: "sky", detail: "4 crons - Grain sync 2x, health pull, system snapshot" },
-  { name: "Tammy", role: "CISO & System Health", model: "openai-codex/gpt-5.4", color: "rose", detail: "11 crons - audits 2x, cron sync 15m, harness, wiki ingest" },
-  { name: "Dr. Attia", role: "Longevity & Health Pod", model: "openai-codex/gpt-5.4", color: "lime", detail: "2 crons - morning brief, weekly strategy review" },
-  { name: "Harrel", role: "Real David Art Studio Lead", model: "openai-codex/gpt-5.4", color: "orange", detail: "1 cron - weekly studio review, image gen, video frames" },
-  { name: "Ralph", role: "RDA Security GM", model: "openai-codex/gpt-5.4", color: "teal", detail: "2 crons - RDA business review + daily signal pipeline" },
+  { name: "XL", role: "Chief of Staff · Main Agent", model: "claude-opus-4", color: "emerald", detail: "13 crons · heartbeat · Mission Control updates · daily briefing" },
+  { name: "Adept Forge", role: "Engineering & Tech Stack", model: "gpt-4o", color: "violet", detail: "weekly tech stack review · API cost report · build ops" },
+  { name: "Signal Monitor", role: "Cron & Proactive Rituals", model: "gpt-4o", color: "amber", detail: "heartbeat checks · token alerts · system monitoring" },
+  { name: "Hubby", role: "Relationship & Date Planning", model: "gpt-4o", color: "rose", detail: "weekly date brief · calendar sync · Wednesdays" },
+  { name: "Fatherhood", role: "Kids & Family Activities", model: "gpt-4o", color: "sky", detail: "weekend activity plan · school calendar · Thursdays" },
+  { name: "SHC IP DTSPM", role: "Stanford HC Digital Transformation", model: "gpt-4o", color: "orange", detail: "work schedule awareness · prep packets · busy blocks" },
+  { name: "Pod Agency", role: "Perkins for the People", model: "gpt-4o", color: "teal", detail: "client scheduling · Perkins calendar · outreach" },
+  { name: "XL Studio", role: "Content & Media Production", model: "gpt-4o", color: "lime", detail: "HeyGen · LiveAvatar · Remotion · video automation" },
 ];
 
 const SUB_AGENTS = [
-  { name: "Sage", parent: "Kirk", role: "Intent Signal Scanner", color: "amber" },
-  { name: "Tyler", parent: "Kirk", role: "ZoomInfo Enricher (was hal)", color: "amber" },
-  { name: "Marty", parent: "Kirk", role: "Outreach Drafter (was rex)", color: "amber" },
-  { name: "Whitney", parent: "Kirk", role: "LinkedIn Variants (was chloe)", color: "amber" },
-  { name: "Andrew", parent: "Kirk", role: "SF CRM Writer (was priya)", color: "amber" },
-  { name: "Alan", parent: "Tammy", role: "Log Auditor", color: "rose" },
-  { name: "Jennifer", parent: "Tammy", role: "Session Journal (was journal)", color: "rose" },
-  { name: "Sophia", parent: "Ralph", role: "RDA Researcher (was scout)", color: "teal" },
-  { name: "David-Goggins", parent: "Dr. Attia", role: "Fitness Enforcer", color: "lime" },
-  { name: "Gabrielle-Lyon", parent: "Dr. Attia", role: "Nutrition Specialist", color: "lime" },
+  { name: "Open Brain", parent: "XL", role: "Semantic Memory Layer", color: "emerald" },
+  { name: "Bee Computer", parent: "XL", role: "Ambient AI Wearable", color: "emerald" },
+  { name: "HeyGen", parent: "XL Studio", role: "Video Generation", color: "lime" },
+  { name: "LiveAvatar", parent: "XL Studio", role: "Real-time Conversational Avatar", color: "lime" },
+  { name: "GHL", parent: "Pod Agency", role: "GoHighLevel CRM & Automation", color: "teal" },
+  { name: "Notion Sync", parent: "Adept Forge", role: "Task & Doc Connector", color: "violet" },
+  { name: "Google Drive", parent: "Adept Forge", role: "Doc Mirror & Specs", color: "violet" },
+  { name: "OpenRouter", parent: "Signal Monitor", role: "Model Routing & Cost Tracking", color: "amber" },
 ];
 
 
@@ -154,11 +152,11 @@ export default async function OverviewPage() {
 
       {/* System Overview stat row */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-        <SystemOverviewCard number="18" label="Agents" subtitle="8 pod heads + 10 subagents" />
-        <SystemOverviewCard number="44" label="Cron Jobs" subtitle="40 enabled / 4 retired" />
-        <SystemOverviewCard number="129" label="Skills" subtitle="across all agents" />
-        <SystemOverviewCard number="376" label="Transcripts" subtitle="Grain, synced 2x daily" />
-        <SystemOverviewCard number="12+" label="Integrations" subtitle="SF, Slack, Supabase, Discord..." />
+        <SystemOverviewCard number="8" label="Pods" subtitle="XL + 7 workstream pods" />
+        <SystemOverviewCard number="13" label="Cron Jobs" subtitle="12 enabled / 1 one-shot" />
+        <SystemOverviewCard number="35+" label="Skills" subtitle="across OpenClaw" />
+        <SystemOverviewCard number="8" label="Sub-Agents" subtitle="integrations & services" />
+        <SystemOverviewCard number="6" label="Platforms" subtitle="Discord, Notion, Drive, GHL..." />
       </div>
 
       {/* Connectors */}
@@ -187,7 +185,7 @@ export default async function OverviewPage() {
       <div className="grid gap-6 lg:grid-cols-[1fr,320px]">
       {/* Agent Fleet - Pod Heads */}
       <div>
-        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Agent Fleet . 8 Pod Heads</h2>
+        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Pod Fleet · 8 Pods</h2>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {POD_HEADS.map((agent) => {
             const colorConfig = COLOR_MAP[agent.color];
@@ -211,7 +209,7 @@ export default async function OverviewPage() {
       </div>
       {/* Sub-Agent Fleet */}
       <div>
-        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Sub-Agent Fleet . 10 (All on OpenAI-Codex/GPT-5.4-Mini)</h2>
+        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Integrations & Sub-Agents · 8</h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {SUB_AGENTS.map((agent) => {
             const topBorderClass = BORDER_TOP_MAP[agent.color];
