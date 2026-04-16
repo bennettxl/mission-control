@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import StatCard from '../ui/StatCard';
+import ModelUsageChart from './ModelUsageChart';
 import { Coins, TrendingUp } from 'lucide-react';
 
 interface ModelUsage {

@@ -1,6 +1,7 @@
 import { getMissionData } from "@/lib/mission-data";
 import { loadWeather } from "@/lib/weather";
 import { INTEGRATIONS } from "@/lib/integrations";
+import PixelOfficeV2 from "@/components/pixel-office-v2";
 import {
   ActivitySquare,
   CalendarDays,
@@ -187,12 +188,8 @@ export default async function OverviewPage() {
       {/* Pixel Office Visualization */}
       <div>
         <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Live Agent Activity</h2>
-        <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-2">
-          <iframe
-            src="/pixel_office/dashboard.html"
-            className="w-full h-[400px] rounded-lg border-none"
-            title="Pixel Office"
-          />
+        <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+          <PixelOfficeV2 />
         </div>
       </div>
       
