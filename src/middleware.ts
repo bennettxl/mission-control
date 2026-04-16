@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const PUBLIC_PATHS = ["/login", "/api/auth", "/api/agent-status"];
+const PUBLIC_PATHS = ["/login", "/api/auth"];
+
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  // Check for the API secret for the agent status route
+  if (pathname.startsWith('/api/agent-status')) {
+    const secret = request.headers.get('x-api-secret');
+    if (secret === process.env.PIXEL_OFFICE_API_SECRET) {
+      return NextResponse.next();
+    }
+    return new NextResponse("Unauthorized", { status: 401 });
+  }
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
