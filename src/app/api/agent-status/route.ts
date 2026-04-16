@@ -1,6 +1,9 @@
 import { kv } from '@vercel/kv';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const runtime = 'nodejs'; // Use the Node.js runtime
+
+
 export async function GET(request: NextRequest) {
     try {
         const status = await kv.get('agent-status');
