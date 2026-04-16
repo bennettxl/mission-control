@@ -189,7 +189,7 @@ export default async function OverviewPage() {
         <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Live Agent Activity</h2>
         <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-2">
           <iframe
-            src="http://localhost:8888/dashboard.html"
+            src="/pixel_office/dashboard.html"
             className="w-full h-[400px] rounded-lg border-none"
             title="Pixel Office"
           />
