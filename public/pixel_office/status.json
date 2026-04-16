@@ -1,0 +1,53 @@
+{
+  "last_updated": "2026-04-16T14:34:01.286218Z",
+  "agents": [
+    {
+      "id": "main_agent",
+      "name": "XL",
+      "status": "active",
+      "task": "Overseeing Operations"
+    },
+    {
+      "id": "idle_1",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_2",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_3",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_4",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_5",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_6",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    },
+    {
+      "id": "idle_7",
+      "name": "",
+      "status": "idle",
+      "task": ""
+    }
+  ]
+}

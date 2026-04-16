@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XL Mission Control</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #office-container {
+            position: relative;
+            width: 1280px; /* Adjust to your background image's width */
+            height: 720px;  /* Adjust to your background image's height */
+            background-image: url('assets/background.png');
+            background-size: cover;
+        }
+        .desk {
+            position: absolute;
+            width: 150px; /* Adjust to your sprite's width */
+            height: 150px; /* Adjust to your sprite's height */
+        }
+        .desk img {
+            width: 100%;
+            height: 100%;
+        }
+        .agent-label {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            color: #E6252A; /* XL Red */
+        }
+        /* Positioning for 8 desks in the 'Cozy Command Center' layout */
+        #desk-1 { top: 350px; left: 150px; }
+        #desk-2 { top: 350px; left: 350px; }
+        #desk-3 { top: 350px; left: 780px; }
+        #desk-4 { top: 350px; left: 980px; }
+        #desk-5 { top: 550px; left: 150px; }
+        #desk-6 { top: 550px; left: 350px; }
+        #desk-7 { top: 550px; left: 780px; }
+        #desk-8 { top: 550px; left: 980px; }
+    </style>
+</head>
+<body>
+
+<div id="office-container">
+    <!-- Desks will be dynamically generated here -->
+</div>
+
+<script>
+    const container = document.getElementById('office-container');
+
+    // Initialize desks
+    for (let i = 1; i <= 8; i++) {
+        const deskDiv = document.createElement('div');
+        deskDiv.id = `desk-${i}`;
+        deskDiv.className = 'desk';
+        const deskImg = document.createElement('img');
+        deskImg.src = 'assets/empty_desk.png'; // Default state
+        const labelDiv = document.createElement('div');
+        labelDiv.className = 'agent-label';
+        deskDiv.appendChild(deskImg);
+        deskDiv.appendChild(labelDiv);
+        container.appendChild(deskDiv);
+    }
+
+    async function fetchStatus() {
+        try {
+            const response = await fetch('/api/agent-status?c=' + Date.now()); // bust cache
+            if (!response.ok) {
+                console.error("Failed to fetch status.json");
+                return;
+            }
+            const data = await response.json();
+            updateDesks(data.agents);
+        } catch (error) {
+            console.error("Error fetching or parsing status.json:", error);
+        }
+    }
+
+    function updateDesks(agents) {
+        agents.forEach((agent, index) => {
+            const deskNumber = index + 1;
+            const deskImg = document.querySelector(`#desk-${deskNumber} img`);
+            const labelDiv = document.querySelector(`#desk-${deskNumber} .agent-label`);
+
+            if (agent.status === 'active') {
+                if (agent.name === 'XL') {
+                    deskImg.src = 'assets/xl_agent.png';
+                } else {
+                    deskImg.src = 'assets/sub_agent.png';
+                }
+                labelDiv.textContent = agent.name || 'Working...';
+                labelDiv.style.display = 'block';
+            } else { // idle
+                deskImg.src = 'assets/empty_desk.png';
+                labelDiv.style.display = 'none';
+            }
+        });
+    }
+
+    // Initial fetch
+    fetchStatus();
+
+    // Poll every 3 seconds
+    setInterval(fetchStatus, 3000);
+</script>
+
+</body>
+</html>
