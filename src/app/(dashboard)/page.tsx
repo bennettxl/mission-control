@@ -124,7 +124,7 @@ export default async function OverviewPage() {
         <p className="text-xs uppercase tracking-[0.35em] text-white/40">Dashboard</p>
         <h1 className="mt-1 text-2xl font-semibold text-white">Overview</h1>
         <p className="mt-1 text-sm text-white/50">
-          {pacificDate} Â· {pacificTime} PT
+          {pacificDate} &middot; {pacificTime} PT
         </p>
       </div>
 
@@ -140,9 +140,9 @@ export default async function OverviewPage() {
           </div>
           {weather ? (
             <>
-              <p className="mt-2 text-2xl font-semibold text-white">{weather.temperatureF}Â°F</p>
+              <p className="mt-2 text-2xl font-semibold text-white">{weather.temperatureF}°F</p>
               <p className="text-[11px] text-white/40">
-                {weather.description} Â· {weather.windSpeed} mph
+                {weather.description} &middot; {weather.windSpeed} mph
               </p>
             </>
           ) : (
@@ -183,6 +183,19 @@ export default async function OverviewPage() {
         ))}
       </div>
 
+      
+      {/* Pixel Office Visualization */}
+      <div>
+        <h2 className="text-xs uppercase tracking-widest text-white/40 mb-3">Live Agent Activity</h2>
+        <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-2">
+          <iframe
+            src="http://localhost:8888/dashboard.html"
+            className="w-full h-[400px] rounded-lg border-none"
+            title="Pixel Office"
+          />
+        </div>
+      </div>
+      
       <div className="grid gap-6 lg:grid-cols-[1fr,320px]">
       {/* Agent Fleet - Pod Heads */}
       <div>
