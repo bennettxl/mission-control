@@ -49,8 +49,7 @@
     <script>
         async function updateStatus() {
             try {
-                // This will be updated to fetch from the API later
-                const response = await fetch('/pixel_office/status.json');
+                const response = await fetch('/api/agent-status');
                 const data = await response.json();
 
                 const xlAgentImg = document.getElementById('xl-agent');
