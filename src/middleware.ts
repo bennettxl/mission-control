@@ -14,9 +14,6 @@ export function middleware(request: NextRequest) {
     return new NextResponse("Unauthorized", { status: 401 });
   }
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
   // Allow public paths and static assets
   if (
     PUBLIC_PATHS.some((p) => pathname.startsWith(p)) ||
