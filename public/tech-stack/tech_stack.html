@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" crossorigin="anonymous"></script>
+<style type="text/css">
+body { margin: 0; background: #222; }
+#mynetwork {
+  width: 100%;
+  height: 100vh;
+  background-color: #222222;
+}
+</style>
+</head>
+<body>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+var container = document.getElementById('mynetwork');
+var nodes = new vis.DataSet([
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Apple +","label":"Apple +","shape":"dot","title":"Media & Entertainment"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Opus Clips","label":"Opus Clips","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"github","label":"github","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"supabase","label":"supabase","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Centerfy","label":"Centerfy","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Audible","label":"Audible","shape":"dot","title":"Media & Entertainment"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Canva","label":"Canva","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Hai","label":"Hai","shape":"dot","title":"Other"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Mid Journey","label":"Mid Journey","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Perplexity","label":"Perplexity","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Durable","label":"Durable","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"GoHighLevel","label":"GoHighLevel","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Twilio","label":"Twilio","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Google Ultra / Gemini","label":"Google Ultra / Gemini","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"HeyGen","label":"HeyGen","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Claude Max","label":"Claude Max","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Plai.io","label":"Plai.io","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Loveable.dev","label":"Loveable.dev","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"ChatGPT","label":"ChatGPT","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Eleven Labs","label":"Eleven Labs","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Spotify","label":"Spotify","shape":"dot","title":"Media & Entertainment"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"n8n","label":"n8n","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Kie","label":"Kie","shape":"dot","title":"Other"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Microsoft Business","label":"Microsoft Business","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Telegram","label":"Telegram","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Notebook LM","label":"Notebook LM","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"descript","label":"descript","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Capcut (Plus Workspace)","label":"Capcut (Plus Workspace)","shape":"dot","title":"Content & Creative"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Notion (Trial Business)","label":"Notion (Trial Business)","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Cursor","label":"Cursor","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Notion Connections","label":"Notion Connections","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Atlas","label":"Atlas","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Visual Studio","label":"Visual Studio","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Codex","label":"Codex","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Hugging Face","label":"Hugging Face","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"VS Code","label":"VS Code","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Vercel","label":"Vercel","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Netlify","label":"Netlify","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"github copilot","label":"github copilot","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"OpenRouter","label":"OpenRouter","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"QuickBooks (Intuit)","label":"QuickBooks (Intuit)","shape":"dot","title":"Finance & Admin"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Docker","label":"Docker","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"The AI Club (A3)","label":"The AI Club (A3)","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Nate's Substack","label":"Nate's Substack","shape":"dot","title":"Other"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Google Workspace (Perkins)","label":"Google Workspace (Perkins)","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Slack","label":"Slack","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Anthropic API (Claude)","label":"Anthropic API (Claude)","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Google Workspace (XLInteractive)","label":"Google Workspace (XLInteractive)","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Hostinger","label":"Hostinger","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Quicken Simplifi","label":"Quicken Simplifi","shape":"dot","title":"Finance & Admin"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Skool","label":"Skool","shape":"dot","title":"Communications & Community"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Mac Mini Fleet (4x)","label":"Mac Mini Fleet (4x)","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Bee Computer","label":"Bee Computer","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Amazon Prime","label":"Amazon Prime","shape":"dot","title":"Media & Entertainment"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Tailscale","label":"Tailscale","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Firecrawl","label":"Firecrawl","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"1Password","label":"1Password","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Antigravity","label":"Antigravity","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"OpenClaw","label":"OpenClaw","shape":"dot","title":"AI & Automation"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Internet / ISP","label":"Internet / ISP","shape":"dot","title":"Dev Tools & Infrastructure"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"LinkedIn Premium","label":"LinkedIn Premium","shape":"dot","title":"Productivity & Office"},
+{"color":"#d3d3d3","font":{"color":"white"},"id":"Domain Registrations","label":"Domain Registrations","shape":"dot","title":"Dev Tools & Infrastructure"}
+]);
+var edges = new vis.DataSet([]);
+var data = {nodes: nodes, edges: edges};
+var options = {
+  "configure": {"enabled": false},
+  "edges": {"color": {"inherit": true}, "smooth": {"enabled": true, "type": "dynamic"}},
+  "interaction": {"dragNodes": true, "hideEdgesOnDrag": false, "hideNodesOnDrag": false},
+  "physics": {"enabled": true, "stabilization": {"enabled": true, "fit": true, "iterations": 1000, "onlyDynamicEdges": false, "updateInterval": 50}}
+};
+var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>
